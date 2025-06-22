@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inserindo Áudio</title>
+</head>
+<body>
+    <p>Esse é um exemplo de código que nos permite <br> adicionar
+    áudio a uma pagina juntamente com uma imagem.</p>
+    <picture>
+       <img src="imagem/36324708-tigre.jpg2.jpg" alt="Tigre grande">
+    </picture>
+    <audio controls>
+        <source src="audios/Groove - Dyalla.mp3" type="audio/mpeg">
+        <source src="audios/Groove - Dyalla.ogg" type="audio/ogg">
+        <source src="audios/Groove - Dyalla.wav" type="audio/wav">
+        <p>Infelizmente o seu navegador não consegue reproduzir áudio. Por favor, <a href="audios/Groove - Dyalla.mp3">clique aqui</a> para ouvi-lo.</p>
+    </audio>
+
+
+    <!-- Existem navegadores que não suportam alguns formatos de áudio, por isso é importante adicionar mais de um formato para que seja reconhecido independente do navegador (mp3,wav,ogg)-->
+</body>
+</html>
